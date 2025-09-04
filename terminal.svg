@@ -1,37 +1,18 @@
 <?xml version="1.0" ?><svg xmlns="http://www.w3.org/2000/svg" width="1040" height="660" viewBox="0 0 1020 650" preserveAspectRatio="xMidYMid">
-
-    <rect id="bg-rect" class="bg" width="1000" height="620" rx="20" ry="20" x="10" y="10"/>
-
-    <text id="text-1" class="text" x="30" y="40">
-        Arch Linux 6.7.1-arch1-1 (tty1)
+    <rect id="bg-rect" class="bg" width="1000" height="620" rx="20" ry="20" x="10" y="10"></rect>
+    <text id="text-1" class="text" x="30" y="40">Arch Linux 6.7.1-arch1-1 (tty1)</text>
+    <text id="text-2" class="text" x="30" y="80">github.com login: 
+        <tspan id="login-username" class="login">ShivangSrivastava</tspan>
     </text>
-    <text id="text-2" class="text" x="30" y="80">
-        github.com login:
-        <tspan id="login-username" class="login">
-            ShivangSrivastava
-        </tspan>
+    <text id="text-3" class="text" x="30" y="110">password: 
+        <tspan id="password" class="password">******</tspan>
     </text>
-
-    <text id="text-3" class="text" x="30" y="110">
-        password:
-        <tspan id="password" class="password">
-            ******
-        </tspan>
+    <text id="text-4" class="text" x="30" y="140">Last login: 
+        <tspan id="last-login" class="last-login">Fri Sep 05 00:12:17 2025 on tty9</tspan>
     </text>
-
-    <text id="text-4" class="text" x="30" y="140">
-        Last login:
-        <tspan id="last-login" class="last-login">Sun Apr 20 01:19:41 2025 on tty1</tspan>
-
+    <text id="text-5" class="text" x="30" y="190">[ShivangSrivastava@github ~]$ 
+        <tspan id="whoami" class="command">./whoami.sh</tspan>
     </text>
-
-    <text id="text-5" class="text" x="30" y="190">
-        [ShivangSrivastava@github ~]$
-        <tspan id="whoami" class="command">
-            ./whoami.sh
-        </tspan>
-    </text>
-
     <text id="art" class="art" x="30" y="220">
         <tspan x="30" dy="1.3em">⠀⠀⠀⠀⠀⠀⠀⢀⣠⣤⣤⣶⣶⣶⣶⣤⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀</tspan>
         <tspan x="30" dy="1.3em">⠀⠀⠀⠀⢀⣤⣾⣿⣿⠿⠟⠛⠛⠛⠛⠻⠿⣿⣿⣷⣤⡀⠀⠀⠀⠀</tspan>
@@ -47,81 +28,24 @@
         <tspan x="30" dy="1.3em">⠀⠀⠀⠀⠈⠛⢿⣿⣿⣿⣧⣼⣿⣤⣾⣷⣶⣿⣿⡿⠛⠁⠀⠀⠀⠀</tspan>
         <tspan x="30" dy="1.3em">⠀⠀⠀⠀⠀⠀⠀⠈⠙⠛⠛⠿⠿⠿⠿⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀</tspan>
     </text>
-
     <text id="profile-info" class="profile" x="400" y="220">
-        <tspan id="profile-username" x="400" dy="1.3em">
-            ShivangSrivastava
-        </tspan>
-        <tspan id="profile-separator" x="400" dy="1.3em">
-            -----------------------
-        </tspan>
-        <tspan id="user-bio" x="400" dy="2.3em">
-            Bio:
-            <tspan id="bio">Flutter developer passionate about clean and ...</tspan>
-        </tspan>
-        <tspan id="followers" x="400" dy="1.3em">
-            Followers:
-            <tspan id="followers-count">6</tspan>
-        </tspan>
-        <tspan id="profile-following" x="400" dy="1.3em">
-            Following:
-            <tspan id="following-count">1</tspan>
-        </tspan>
-
-
-
-        <tspan id="total-repo" x="400" dy="2.3em">
-            Total Repo:
-            <tspan id="repo-count">29</tspan>
-        </tspan>
-        <tspan id="total-stars" x="400" dy="1.3em">
-            Total Stars:
-            <tspan id="stars-count">10</tspan>
-        </tspan>
-        <tspan id="total-commits" x="400" dy="1.3em">
-            Total Commits:
-            <tspan id="commits-count">398</tspan>
-        </tspan>
-
-        <tspan id="most-used-language" x="400" dy="1.3em">
-            Most used language:
-            <tspan id="language">Dart, Python, JavaScript, Shell</tspan>
-        </tspan>
+        <tspan id="profile-username" x="400" dy="1.3em">ShivangSrivastava</tspan>
+        <tspan id="profile-separator" x="400" dy="1.3em">-----------------------</tspan>
+        <tspan id="user-bio" x="400" dy="2.3em">Bio: Backend Developer (Fresher) | Go, Python, Chi...</tspan>
+        <tspan id="followers" x="400" dy="1.3em">Followers: 6</tspan>
+        <tspan id="profile-following" x="400" dy="1.3em">Following: 0</tspan>
+        <tspan id="total-repo" x="400" dy="2.3em">Total Repo: 24</tspan>
+        <tspan id="total-stars" x="400" dy="1.3em">Total Stars: 13</tspan>
+        <tspan id="total-commits" x="400" dy="1.3em">Total Commits: 133</tspan>
+        <tspan id="most-used-language" x="400" dy="1.3em">Most used language: Go, Python, Lua</tspan>
     </text>
-
-    <text id="reboot-message" class="text" x="30" y="550">
-        [ShivangSrivastava@github ~]$
-        <tspan id="reboot-command" class="reboot-command">
-            <tspan class="command">
-                echo
-            </tspan>
-            <tspan class="str-command">
-                "Reboot in 5 sec..."
-            </tspan>
-            <tspan>
-                ;
-            </tspan>
-            <tspan class="command">
-                sleep
-            </tspan>
-            <tspan>
-
-                5 ;
-            </tspan>
-            <tspan class="command">
-                reboot
-            </tspan>
-        </tspan>
-        <tspan id="reboot-status" x="30" dy="2em">
-            Reboot in 5 sec...
-        </tspan>
+    <text id="reboot-message" class="text" x="30" y="550">[ShivangSrivastava@github ~]$ 
+        <tspan id="reboot-command" class="reboot-command">echo &#34;Reboot in 5 sec...&#34; ; sleep 5 ; reboot</tspan>
+        <tspan id="reboot-status" x="30" dy="2em">Reboot in 5 sec...</tspan>
     </text>
-
-    <style>
+    <style><![CDATA[
         * {
             font-family: 'JetBrains Mono', monospace;
-
-
         }
 
         .bg {
@@ -147,7 +71,6 @@
             fill: #9399b2;
         }
 
-
         .command {
             fill: #a6e3a1 !important;
         }
@@ -165,7 +88,9 @@
             font-size: 17px;
             fill: #89dceb;
         }
-        #reboot-command,#reboot-status{
-        display:none !important;
-    </style>
+        
+        #reboot-command, #reboot-status {
+            display: none !important;
+        }
+            ]]></style>
 </svg>
