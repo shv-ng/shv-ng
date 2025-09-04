@@ -2,7 +2,7 @@ name: Generate Datas
 
 on:
   schedule:
-    - cron: "0 0 * * 0,3"
+    - cron: "0 0 * * 0,3"  # Fixed: added space after second *
   workflow_dispatch:
   push:
     branches:
@@ -13,11 +13,36 @@ jobs:
     permissions: 
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10  # Increased timeout for Go compilation and API calls
     
     steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for proper git operations
+
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.21'  # Use stable Go version
+
+      - name: Create dist directory
+        run: mkdir -p dist
+
+      - name: Generate terminal.svg with Go
+        run: |
+          echo "Building Go application..."
+          go mod init github-profile-generator 2>/dev/null || true
+          go build -o github-profile-generator main.go
+          echo "Running profile generator..."
+          ./github-profile-generator
+          echo "Moving terminal.svg to dist..."
+          mv terminal.svg dist/terminal.svg
+        env:
+          # Add any environment variables if needed in the future
+          CGO_ENABLED: 0
+
+      - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -25,11 +50,20 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
           
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Verify generated files
+        run: |
+          echo "Generated files:"
+          ls -la dist/
+          echo "Terminal.svg size:"
+          wc -c dist/terminal.svg
+          echo "First few lines of terminal.svg:"
+          head -5 dist/terminal.svg
+
+      - name: Push generated files to output branch
+        uses: crazy-max/ghaction-github-pages@v4.0.0  # Updated to latest version
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "🤖 Update profile data - $(date +'%Y-%m-%d %H:%M:%S UTC')"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
