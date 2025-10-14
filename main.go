@@ -14,25 +14,25 @@ import (
 )
 
 const (
-	USERNAME    = "ShivangSrivastava"
-	BASE_URL    = "https://api.github.com"
-	STAR_URL    = "https://api.github-star-counter.workers.dev"
-	FILE_NAME   = "terminal.svg"
-	MAX_BIO_LEN = 45
+	USERNAME     = "shv-ng"
+	BASE_URL     = "https://api.github.com"
+	STAR_URL     = "https://api.github-star-counter.workers.dev"
+	FILE_NAME    = "terminal.svg"
+	MAX_BIO_LEN  = 45
 	MAX_LANG_LEN = 35
 )
 
 // SVG structure definitions
 type SVG struct {
-	XMLName      xml.Name `xml:"svg"`
-	Xmlns        string   `xml:"xmlns,attr"`
-	Width        string   `xml:"width,attr"`
-	Height       string   `xml:"height,attr"`
-	ViewBox      string   `xml:"viewBox,attr"`
-	PreserveAR   string   `xml:"preserveAspectRatio,attr"`
-	Background   Rect     `xml:"rect"`
-	Texts        []Text   `xml:"text"`
-	Style        Style    `xml:"style"`
+	XMLName    xml.Name `xml:"svg"`
+	Xmlns      string   `xml:"xmlns,attr"`
+	Width      string   `xml:"width,attr"`
+	Height     string   `xml:"height,attr"`
+	ViewBox    string   `xml:"viewBox,attr"`
+	PreserveAR string   `xml:"preserveAspectRatio,attr"`
+	Background Rect     `xml:"rect"`
+	Texts      []Text   `xml:"text"`
+	Style      Style    `xml:"style"`
 }
 
 type Rect struct {
@@ -77,11 +77,11 @@ type GitHubUser struct {
 }
 
 type GitHubRepo struct {
-	Name        string `json:"name"`
-	Language    string `json:"language"`
-	CommitsURL  string `json:"commits_url"`
-	Fork        bool   `json:"fork"`
-	Archived    bool   `json:"archived"`
+	Name       string `json:"name"`
+	Language   string `json:"language"`
+	CommitsURL string `json:"commits_url"`
+	Fork       bool   `json:"fork"`
+	Archived   bool   `json:"archived"`
 }
 
 type StarResponse struct {
@@ -89,12 +89,12 @@ type StarResponse struct {
 }
 
 type GitHubStats struct {
-	User                *GitHubUser
-	Repos               []GitHubRepo
-	Stars               int
-	TotalCommits        int
-	LanguageCount       map[string]int
-	MostUsedLanguages   string
+	User              *GitHubUser
+	Repos             []GitHubRepo
+	Stars             int
+	TotalCommits      int
+	LanguageCount     map[string]int
+	MostUsedLanguages string
 }
 
 // APIManager handles all GitHub API interactions
@@ -170,7 +170,7 @@ func (api *APIManager) countCommits() error {
 
 		commitsURL := strings.Replace(repo.CommitsURL, "{/sha}", "", 1)
 		commitsURL += "?per_page=100"
-		
+
 		var commits []map[string]interface{}
 		if err := api.fetchJSON(commitsURL, &commits); err != nil {
 			log.Printf("Warning: Could not fetch commits for repo %s: %v", repo.Name, err)
@@ -296,7 +296,7 @@ func (sg *SVGGenerator) generateAsciiArt() []Tspan {
 
 func (sg *SVGGenerator) Generate() *SVG {
 	currentTime := time.Now().Format("Mon Jan 02 15:04:05 2006 on tty1")
-	
+
 	svg := &SVG{
 		Xmlns:      "http://www.w3.org/2000/svg",
 		Width:      "1040",
@@ -526,7 +526,7 @@ func (sg *SVGGenerator) Generate() *SVG {
 
 func (sg *SVGGenerator) SaveToFile(filename string) error {
 	svg := sg.Generate()
-	
+
 	output, err := xml.MarshalIndent(svg, "", "    ")
 	if err != nil {
 		return fmt.Errorf("failed to marshal SVG: %w", err)
@@ -534,7 +534,7 @@ func (sg *SVGGenerator) SaveToFile(filename string) error {
 
 	// Add XML declaration
 	xmlContent := `<?xml version="1.0" ?>` + string(output)
-	
+
 	return os.WriteFile(filename, []byte(xmlContent), 0644)
 }
 
