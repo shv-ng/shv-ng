@@ -22,81 +22,6 @@ const (
 	MAX_LANG_LEN = 35
 )
 
-// SVG structure definitions
-type SVG struct {
-	XMLName    xml.Name `xml:"svg"`
-	Xmlns      string   `xml:"xmlns,attr"`
-	Width      string   `xml:"width,attr"`
-	Height     string   `xml:"height,attr"`
-	ViewBox    string   `xml:"viewBox,attr"`
-	PreserveAR string   `xml:"preserveAspectRatio,attr"`
-	Background Rect     `xml:"rect"`
-	Texts      []Text   `xml:"text"`
-	Style      Style    `xml:"style"`
-}
-
-type Rect struct {
-	ID     string `xml:"id,attr"`
-	Class  string `xml:"class,attr"`
-	Width  string `xml:"width,attr"`
-	Height string `xml:"height,attr"`
-	RX     string `xml:"rx,attr"`
-	RY     string `xml:"ry,attr"`
-	X      string `xml:"x,attr"`
-	Y      string `xml:"y,attr"`
-}
-
-type Text struct {
-	ID    string  `xml:"id,attr"`
-	Class string  `xml:"class,attr"`
-	X     string  `xml:"x,attr"`
-	Y     string  `xml:"y,attr"`
-	Value string  `xml:",chardata"`
-	Tspan []Tspan `xml:"tspan,omitempty"`
-}
-
-type Tspan struct {
-	ID    string `xml:"id,attr,omitempty"`
-	Class string `xml:"class,attr,omitempty"`
-	X     string `xml:"x,attr,omitempty"`
-	DY    string `xml:"dy,attr,omitempty"`
-	Value string `xml:",chardata"`
-}
-
-type Style struct {
-	Value string `xml:",cdata"`
-}
-
-// GitHub API response structures
-type GitHubUser struct {
-	Login       string `json:"login"`
-	Followers   int    `json:"followers"`
-	Following   int    `json:"following"`
-	Bio         string `json:"bio"`
-	PublicRepos int    `json:"public_repos"`
-}
-
-type GitHubRepo struct {
-	Name       string `json:"name"`
-	Language   string `json:"language"`
-	CommitsURL string `json:"commits_url"`
-	Fork       bool   `json:"fork"`
-	Archived   bool   `json:"archived"`
-}
-
-type StarResponse struct {
-	Stars int `json:"stars"`
-}
-
-type GitHubStats struct {
-	User              *GitHubUser
-	Repos             []GitHubRepo
-	Stars             int
-	TotalCommits      int
-	LanguageCount     map[string]int
-	MostUsedLanguages string
-}
-
 // APIManager handles all GitHub API interactions
 type APIManager struct {
 	client *http.Client
@@ -112,7 +37,7 @@ func NewAPIManager() *APIManager {
 	}
 }
 
-func (api *APIManager) fetchJSON(url string, target interface{}) error {
+func (api *APIManager) fetchJSON(url string, target any) error {
 	resp, err := api.client.Get(url)
 	if err != nil {
 		return fmt.Errorf("failed to fetch %s: %w", url, err)
@@ -171,7 +96,7 @@ func (api *APIManager) countCommits() error {
 		commitsURL := strings.Replace(repo.CommitsURL, "{/sha}", "", 1)
 		commitsURL += "?per_page=100"
 
-		var commits []map[string]interface{}
+		var commits []map[string]any
 		if err := api.fetchJSON(commitsURL, &commits); err != nil {
 			log.Printf("Warning: Could not fetch commits for repo %s: %v", repo.Name, err)
 			continue
@@ -400,7 +325,7 @@ func (sg *SVGGenerator) Generate() *SVG {
 						ID:    "profile-separator",
 						X:     "400",
 						DY:    "1.3em",
-						Value: "-----------------------",
+						Value: "------",
 					},
 					{
 						ID:    "user-bio",
