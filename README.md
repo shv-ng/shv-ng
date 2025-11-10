@@ -12,7 +12,6 @@
     <img src="https://github-contributor-stats.vercel.app/api?username=shv-ng&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" alt="Top Contributed Repos" width="100%">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=shv-ng&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" width="100%">
     <img src="https://github-profile-trophy.vercel.app/?username=shv-ng&no-bg=true&no-frame=true&theme=darkhub" alt="Trophies" width="100%">
-    <img src="https://count.getloli.com/@shv-ng?name=shv-ng&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=0&darkmode=auto" alt="Visitors">
     <p align="center">
         <a href="https://linkedin.com/in/shvng">
             <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2&color=0A66C2" alt="LinkedIn" />
@@ -28,6 +27,7 @@
         <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love"/>
         <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" alt="Powered by Coffee"/>
     </p>
+    <img src="https://count.getloli.com/@shv-ng?name=shv-ng&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=0&darkmode=auto" alt="Visitors">
     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
 </div>
 
