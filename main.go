@@ -21,6 +21,80 @@ const (
 	MAX_BIO_LEN  = 45
 	MAX_LANG_LEN = 35
 )
+// SVG structure definitions
+type SVG struct {
+	XMLName    xml.Name `xml:"svg"`
+	Xmlns      string   `xml:"xmlns,attr"`
+	Width      string   `xml:"width,attr"`
+	Height     string   `xml:"height,attr"`
+	ViewBox    string   `xml:"viewBox,attr"`
+	PreserveAR string   `xml:"preserveAspectRatio,attr"`
+	Background Rect     `xml:"rect"`
+	Texts      []Text   `xml:"text"`
+	Style      Style    `xml:"style"`
+}
+
+type Rect struct {
+	ID     string `xml:"id,attr"`
+	Class  string `xml:"class,attr"`
+	Width  string `xml:"width,attr"`
+	Height string `xml:"height,attr"`
+	RX     string `xml:"rx,attr"`
+	RY     string `xml:"ry,attr"`
+	X      string `xml:"x,attr"`
+	Y      string `xml:"y,attr"`
+}
+
+type Text struct {
+	ID    string  `xml:"id,attr"`
+	Class string  `xml:"class,attr"`
+	X     string  `xml:"x,attr"`
+	Y     string  `xml:"y,attr"`
+	Value string  `xml:",chardata"`
+	Tspan []Tspan `xml:"tspan,omitempty"`
+}
+
+type Tspan struct {
+	ID    string `xml:"id,attr,omitempty"`
+	Class string `xml:"class,attr,omitempty"`
+	X     string `xml:"x,attr,omitempty"`
+	DY    string `xml:"dy,attr,omitempty"`
+	Value string `xml:",chardata"`
+}
+
+type Style struct {
+	Value string `xml:",cdata"`
+}
+
+// GitHub API response structures
+type GitHubUser struct {
+	Login       string `json:"login"`
+	Followers   int    `json:"followers"`
+	Following   int    `json:"following"`
+	Bio         string `json:"bio"`
+	PublicRepos int    `json:"public_repos"`
+}
+
+type GitHubRepo struct {
+	Name       string `json:"name"`
+	Language   string `json:"language"`
+	CommitsURL string `json:"commits_url"`
+	Fork       bool   `json:"fork"`
+	Archived   bool   `json:"archived"`
+}
+
+type StarResponse struct {
+	Stars int `json:"stars"`
+}
+
+type GitHubStats struct {
+	User              *GitHubUser
+	Repos             []GitHubRepo
+	Stars             int
+	TotalCommits      int
+	LanguageCount     map[string]int
+	MostUsedLanguages string
+}
 
 // APIManager handles all GitHub API interactions
 type APIManager struct {
