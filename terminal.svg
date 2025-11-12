@@ -1,0 +1,96 @@
+<?xml version="1.0" ?><svg xmlns="http://www.w3.org/2000/svg" width="1040" height="660" viewBox="0 0 1020 650" preserveAspectRatio="xMidYMid">
+    <rect id="bg-rect" class="bg" width="1000" height="620" rx="20" ry="20" x="10" y="10"></rect>
+    <text id="text-1" class="text" x="30" y="40">Arch Linux 6.7.1-arch1-1 (tty1)</text>
+    <text id="text-2" class="text" x="30" y="80">github.com login: 
+        <tspan id="login-username" class="login">shv-ng</tspan>
+    </text>
+    <text id="text-3" class="text" x="30" y="110">password: 
+        <tspan id="password" class="password">******</tspan>
+    </text>
+    <text id="text-4" class="text" x="30" y="140">Last login: 
+        <tspan id="last-login" class="last-login">Wed Nov 12 01:07:13 2025 on tty11</tspan>
+    </text>
+    <text id="text-5" class="text" x="30" y="190">[shv-ng@github ~]$ 
+        <tspan id="whoami" class="command">./whoami.sh</tspan>
+    </text>
+    <text id="art" class="art" x="30" y="220">
+        <tspan x="30" dy="1.3em">⠀⠀⠀⠀⠀⠀⠀⢀⣠⣤⣤⣶⣶⣶⣶⣤⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀</tspan>
+        <tspan x="30" dy="1.3em">⠀⠀⠀⠀⢀⣤⣾⣿⣿⠿⠟⠛⠛⠛⠛⠻⠿⣿⣿⣷⣤⡀⠀⠀⠀⠀</tspan>
+        <tspan x="30" dy="1.3em">⠀⠀⠀⣴⣿⣿⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠻⣿⣿⣦⠀⠀⠀</tspan>
+        <tspan x="30" dy="1.3em">⠀⢀⣾⣿⡿⠁⠀⠀⣴⣦⣄⠀⠀⠀⠀⠀⣀⣤⣶⡀⠈⢿⣿⣷⡀⠀</tspan>
+        <tspan x="30" dy="1.3em">⠀⣾⣿⡟⠁⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠈⢻⣿⣷⠀</tspan>
+        <tspan x="30" dy="1.3em">⢠⣿⣿⠁⠀⠀⠀⣠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠀⠀⠈⣿⣿⡄</tspan>
+        <tspan x="30" dy="1.3em">⢸⣿⣿⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⣿⣿⡇</tspan>
+        <tspan x="30" dy="1.3em">⠘⣿⣿⡦⠤⠒⠒⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠧⠤⢴⣿⣿⠃</tspan>
+        <tspan x="30" dy="1.3em">⠀⢿⣿⣧⡀⠀⢤⡀⠙⠻⠿⣿⣿⣿⣿⣿⡿⠟⠋⠁⠀⢀⣼⣿⡿⠀</tspan>
+        <tspan x="30" dy="1.3em">⠀⠈⢿⣿⣷⡀⠈⢿⣦⣤⣾⣿⣿⣿⣿⣿⣷⣄⠀⠀⢀⣾⣿⡿⠁⠀</tspan>
+        <tspan x="30" dy="1.3em">⠀⠀⠀⠻⣿⣿⣦⣄⡉⣿⣿⢿⣿⠉⢻⣿⢿⣿⣠⣴⣿⣿⠟⠀⠀⠀</tspan>
+        <tspan x="30" dy="1.3em">⠀⠀⠀⠀⠈⠛⢿⣿⣿⣿⣧⣼⣿⣤⣾⣷⣶⣿⣿⡿⠛⠁⠀⠀⠀⠀</tspan>
+        <tspan x="30" dy="1.3em">⠀⠀⠀⠀⠀⠀⠀⠈⠙⠛⠛⠿⠿⠿⠿⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀</tspan>
+    </text>
+    <text id="profile-info" class="profile" x="400" y="220">
+        <tspan id="profile-username" x="400" dy="1.3em">shv-ng</tspan>
+        <tspan id="profile-separator" x="400" dy="1.3em">------</tspan>
+        <tspan id="user-bio" x="400" dy="2.3em">Bio: Backend Developer (Fresher) | Go, Python, Chi...</tspan>
+        <tspan id="followers" x="400" dy="1.3em">Followers: 7</tspan>
+        <tspan id="profile-following" x="400" dy="1.3em">Following: 5</tspan>
+        <tspan id="total-repo" x="400" dy="2.3em">Total Repo: 22</tspan>
+        <tspan id="total-stars" x="400" dy="1.3em">Total Stars: 12</tspan>
+        <tspan id="total-commits" x="400" dy="1.3em">Total Commits: 88</tspan>
+        <tspan id="most-used-language" x="400" dy="1.3em">Most used language: Go, Python, Shell</tspan>
+    </text>
+    <text id="reboot-message" class="text" x="30" y="550">[shv-ng@github ~]$ 
+        <tspan id="reboot-command" class="reboot-command">echo &#34;Reboot in 5 sec...&#34; ; sleep 5 ; reboot</tspan>
+        <tspan id="reboot-status" x="30" dy="2em">Reboot in 5 sec...</tspan>
+    </text>
+    <style><![CDATA[
+        * {
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .bg {
+            fill: #11111b;
+            filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+        }
+
+        #text-1 {
+            fill: #f38ba8;
+        }
+
+        #text-2,
+        #text-3 {
+            fill: #f5c2e7;
+        }
+
+        .text {
+            font-size: 17px;
+            fill: #cdd6f4;
+        }
+
+        .text tspan {
+            fill: #9399b2;
+        }
+
+        .command {
+            fill: #a6e3a1 !important;
+        }
+
+        .str-command {
+            fill: #fab387 !important;
+        }
+
+        .art {
+            font-size: 15px;
+            fill: #89b4fa;
+        }
+
+        .profile {
+            font-size: 17px;
+            fill: #89dceb;
+        }
+        
+        #reboot-command, #reboot-status {
+            display: none !important;
+        }
+            ]]></style>
+</svg>
