@@ -21,6 +21,7 @@ const (
 	MAX_BIO_LEN  = 45
 	MAX_LANG_LEN = 35
 )
+
 // SVG structure definitions
 type SVG struct {
 	XMLName    xml.Name `xml:"svg"`
@@ -318,7 +319,7 @@ func (sg *SVGGenerator) Generate() *SVG {
 				Class: "text",
 				X:     "30",
 				Y:     "40",
-				Value: "Arch Linux 6.7.1-arch1-1 (tty1)",
+				Value: "Arch Linux 6.16.4-arch1-1 (tty1)",
 			},
 			{
 				ID:    "text-2",
