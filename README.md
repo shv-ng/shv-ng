@@ -13,7 +13,7 @@
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=shv-ng&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" width="100%">
     <img src="https://github-profile-trophy.vercel.app/?username=shv-ng&no-bg=true&no-frame=true&theme=darkhub" alt="Trophies" width="100%">
     <p align="center">
-        <a href="https://linkedin.com/in/shvng">
+        <a href="https://linkedin.com/in/shv-ng">
             <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2&color=0A66C2" alt="LinkedIn" />
         </a>
         <a href="https://leetcode.com/shivng">
