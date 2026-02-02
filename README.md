@@ -23,6 +23,9 @@
 ## Contributions & Collaborations
 
 ### Open Source
+- **[jackc/pgx](https://github.com/jackc/pgx)** — PostgreSQL driver and toolkit for Go
+  Fix empty user in connection string defaulting to OS user [#2496](https://github.com/jackc/pgx/pull/2496)
+
 - **[depado/quokka](https://github.com/depado/quokka)** — Go-based static site generator  
   Fixed `filepath.Walk` error handling in the Analyze phase to prevent silent failures. [#197](https://github.com/depado/quokka/pull/197)
 
