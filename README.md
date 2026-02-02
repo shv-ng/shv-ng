@@ -20,6 +20,9 @@
 - **[Relay](https://github.com/shv-ng/relay)**: Go  
     A lightweight HTTP load balancer built from scratch, supporting multiple routing algorithms, health checks, and concurrent request handling.  
 
+- **[HTTP from TCP](https://github.com/shv-ng/http-from-tcp)**: Go  
+    A lightweight HTTP/1.1 server built from scratch in Go that parses and serves requests directly over TCP without using net/http.
+
 ## Contributions & Collaborations
 
 ### Open Source
