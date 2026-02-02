@@ -17,24 +17,24 @@
 
 ## Featured Projects
 
-- **[Relay](https://github.com/shv-ng/relay)** — Go  
-  A lightweight HTTP load balancer built from scratch, supporting multiple routing algorithms, health checks, and concurrent request handling.  
+- **[Relay](https://github.com/shv-ng/relay)**: Go  
+    A lightweight HTTP load balancer built from scratch, supporting multiple routing algorithms, health checks, and concurrent request handling.  
 
 ## Contributions & Collaborations
 
 ### Open Source
-- **[jackc/pgx](https://github.com/jackc/pgx)** — PostgreSQL driver and toolkit for Go
-  Fix empty user in connection string defaulting to OS user [#2496](https://github.com/jackc/pgx/pull/2496)
+- **[jackc/pgx](https://github.com/jackc/pgx)**: PostgreSQL driver and toolkit for Go  
+    Fix empty user in connection string defaulting to OS user. [#2496](https://github.com/jackc/pgx/pull/2496)
 
-- **[depado/quokka](https://github.com/depado/quokka)** — Go-based static site generator  
-  Fixed `filepath.Walk` error handling in the Analyze phase to prevent silent failures. [#197](https://github.com/depado/quokka/pull/197)
+- **[depado/quokka](https://github.com/depado/quokka)**: Go-based static site generator  
+    Fixed `filepath.Walk` error handling in the Analyze phase to prevent silent failures. [#197](https://github.com/depado/quokka/pull/197)
 
 ### Collaborative Projects
 - **[Shivansh142004/TechBridge](https://github.com/Shivansh142004/TechBridge)** — Web platform for student–industry collaboration  
-  Restructured the project layout and added a Dockerfile for reproducible builds. [#1](https://github.com/Shivansh142004/TechBridge/pull/1)
+    Restructured the project layout and added a Dockerfile for reproducible builds. [#1](https://github.com/Shivansh142004/TechBridge/pull/1)
 
 - **[Sowmyayadav0/food](https://github.com/Sowmyayadav0/food)** — Full-stack food ordering application  
-  Implemented a backend REST API using Express and reorganized the project structure. [#1](https://github.com/Sowmyayadav0/food/pull/1), [#2](https://github.com/Sowmyayadav0/food/pull/2)
+    Implemented a backend REST API using Express and reorganized the project structure. [#1](https://github.com/Sowmyayadav0/food/pull/1), [#2](https://github.com/Sowmyayadav0/food/pull/2)
 
 ---
 
