@@ -12,22 +12,29 @@
         </a>
     </p>
 </div>
-<br>
-<h2>Featured Projects</h2>
-<ul>
-    <li><strong><a href="https://github.com/shv-ng/relay">Relay</a></strong> - A lightweight HTTP load balancer built from scratch in Go, supporting multiple routing algorithms, health checks, and concurrent request handling.</li>
-</ul>
-<h2>Contributions & Collaborations</h2>
-<p><strong>Open Source:</strong></p>
-<ul>
-    <li><strong><a href="https://github.com/depado/quokka/">Quokka</a></strong> - fix: handle filepath.Walk errors in Analyze #197</li>
-</ul>
-<p><strong>Friend Projects:</strong></p>
-<ul>
-    <li><strong><a href="https://github.com/Shivansh142004/TechBridge">TechBridge</a></strong> - Restructing the project and add dockerfile #1</li>
-    <li><strong><a href="https://github.com/Sowmyayadav0/food">food</a></strong> - Restructing the project and add backend api with express #1,#2</li>
-</ul>
-<br>
+
+---
+
+## Featured Projects
+
+- **[Relay](https://github.com/shv-ng/relay)**
+A lightweight HTTP load balancer built from scratch in Go, supporting multiple routing algorithms, health checks, and concurrent request handling.</li>
+
+## Contributions & Collaborations
+
+### Open Source:
+- **[depado/quokka](https://github.com/depado/quokka/)**
+fix: handle filepath.Walk errors in Analyze [#197](https://github.com/depado/quokka/pull/197)
+
+### Friend Projects:
+- **[Shivansh142004/TechBridge](https://github.com/Shivansh142004/TechBridge)**
+Restructing the project and add dockerfile [#1](https://github.com/Shivansh142004/TechBridge/pull/1)
+
+- **[Sowmyayadav0/food](https://github.com/Sowmyayadav0/food)**
+Restructing the project and add backend api with express [#1](https://github.com/Sowmyayadav0/food/pull/1),[#2](https://github.com/Sowmyayadav0/food/pull/2)
+
+---
+
 <div align="center">
     <details>
         <summary><b>View GitHub Stats & Activity</b></summary>
