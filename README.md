@@ -17,21 +17,25 @@
 
 ## Featured Projects
 
-- **[Relay](https://github.com/shv-ng/relay)**
-A lightweight HTTP load balancer built from scratch in Go, supporting multiple routing algorithms, health checks, and concurrent request handling.</li>
+- **Relay** — Go  
+  A lightweight HTTP load balancer built from scratch, supporting multiple routing algorithms, health checks, and concurrent request handling.  
+  https://github.com/shv-ng/relay
 
 ## Contributions & Collaborations
 
-### Open Source:
-- **[depado/quokka](https://github.com/depado/quokka/)**
-fix: handle filepath.Walk errors in Analyze [#197](https://github.com/depado/quokka/pull/197)
+### Open Source
+- **[depado/quokka](https://github.com/depado/quokka)** — Go-based static site generator  
+  Fixed `filepath.Walk` error handling in the Analyze phase to prevent silent failures.  
+  PR: [#197](https://github.com/depado/quokka/pull/197)
 
-### Friend Projects:
-- **[Shivansh142004/TechBridge](https://github.com/Shivansh142004/TechBridge)**
-Restructing the project and add dockerfile [#1](https://github.com/Shivansh142004/TechBridge/pull/1)
+### Collaborative Projects
+- **[Shivansh142004/TechBridge](https://github.com/Shivansh142004/TechBridge)** — Web platform for student–industry collaboration  
+  Restructured the project layout and added a Dockerfile for reproducible builds.  
+  PR: [#1](https://github.com/Shivansh142004/TechBridge/pull/1)
 
-- **[Sowmyayadav0/food](https://github.com/Sowmyayadav0/food)**
-Restructing the project and add backend api with express [#1](https://github.com/Sowmyayadav0/food/pull/1),[#2](https://github.com/Sowmyayadav0/food/pull/2)
+- **[Sowmyayadav0/food](https://github.com/Sowmyayadav0/food)** — Full-stack food ordering application  
+  Implemented a backend REST API using Express and reorganized the project structure.  
+  PRs: [#1](https://github.com/Sowmyayadav0/food/pull/1), [#2](https://github.com/Sowmyayadav0/food/pull/2)
 
 ---
 
