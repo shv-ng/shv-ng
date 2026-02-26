@@ -26,6 +26,9 @@
 ## Contributions & Collaborations
 
 ### Open Source
+- **[charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea)**: A powerful little TUI framework 🏗
+    fix(examples): add missing WithWidth to table example. [#1598](https://github.com/charmbracelet/bubbletea/pull/1598)
+
 - **[jackc/pgx](https://github.com/jackc/pgx)**: PostgreSQL driver and toolkit for Go  
     Fix empty user in connection string defaulting to OS user. [#2496](https://github.com/jackc/pgx/pull/2496)
 
