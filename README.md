@@ -26,10 +26,7 @@
 ## Contributions & Collaborations
 
 ### Open Source
-<<<<<<< HEAD
-=======
 
->>>>>>> f2262bc (add rascii to oss contributions)
 - **[charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea)**: A powerful little TUI framework 🏗  
     fix(examples): add missing WithWidth to table example. [#1598](https://github.com/charmbracelet/bubbletea/pull/1598)
 
