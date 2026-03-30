@@ -26,6 +26,10 @@
 ## Contributions & Collaborations
 
 ### Open Source
+<<<<<<< HEAD
+=======
+
+>>>>>>> f2262bc (add rascii to oss contributions)
 - **[charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea)**: A powerful little TUI framework 🏗  
     fix(examples): add missing WithWidth to table example. [#1598](https://github.com/charmbracelet/bubbletea/pull/1598)
 
@@ -35,7 +39,11 @@
 - **[depado/quokka](https://github.com/depado/quokka)**: Go-based static site generator  
     Fixed `filepath.Walk` error handling in the Analyze phase to prevent silent failures. [#197](https://github.com/depado/quokka/pull/197)
 
+- **[orhnk/RASCII](https://github.com/orhnk/RASCII)**: Advanced image to ASCII art tool & crate written in Rust 🦀🚀  
+    Improve installation: Use `/usr/local/bin` & simplify manual install. [#21](https://github.com/orhnk/RASCII/pull/21)
+
 ### Collaborative Projects
+
 - **[Shivansh142004/TechBridge](https://github.com/Shivansh142004/TechBridge)** — Web platform for student–industry collaboration  
     Restructured the project layout and added a Dockerfile for reproducible builds. [#1](https://github.com/Shivansh142004/TechBridge/pull/1)
 
