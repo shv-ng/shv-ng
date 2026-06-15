@@ -17,6 +17,12 @@
 
 ## Featured Projects
 
+- **[ryou](https://github.com/shv-ng/ryou)**: Python  
+    Go-style concurrency for Python. No async/await. No brokers. No boilerplate.
+
+- **[NotiQ](https://github.com/shv-ng/notiq)**: Python  
+    A multi-tenant webhook delivery service. Tenants subscribe to event types with target URLs; you fire an event, NotiQ fans it out, retries on failure, and parks dead deliveries in a DLQ for replay.
+
 - **[Relay](https://github.com/shv-ng/relay)**: Go  
     A lightweight HTTP load balancer built from scratch, supporting multiple routing algorithms, health checks, and concurrent request handling.  
 
