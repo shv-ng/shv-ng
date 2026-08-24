@@ -56,22 +56,6 @@
 ---
 
 <div align="center">
-    <details>
-        <summary><b>View GitHub Stats & Activity</b></summary>
-        <br>
-        <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shv-ng&theme=tokyonight" alt="Profile Summary" width="100%">
-        <p align="center">
-            <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shv-ng&theme=tokyonight" alt="Repos per Language" width="49%">
-            <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shv-ng&theme=tokyonight" alt="Most Commit Language" width="49%">
-        </p>
-        <p align="center">
-            <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=shv-ng&theme=tokyonight" alt="Stats" width="49%">
-            <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shv-ng&theme=tokyonight&utcOffset=5.3" alt="Productive Time" width="49%">
-        </p>
-        <img src="https://github-contributor-stats.vercel.app/api?username=shv-ng&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" alt="Top Contributed Repos" width="100%">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=shv-ng&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" width="100%">
-        <img src="https://github-profile-trophy.vercel.app/?username=shv-ng&no-bg=true&no-frame=true&theme=darkhub" alt="Trophies" width="100%">
-    </details>
     <p align="center">
         <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love"/>
         <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" alt="Powered by Coffee"/>
