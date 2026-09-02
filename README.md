@@ -4,7 +4,7 @@
         <a href="https://linkedin.com/in/shv-ng">
             <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2&color=0A66C2" alt="LinkedIn" />
         </a>
-        <a href="https://leetcode.com/shivng">
+        <a href="https://leetcode.com/shv-ng">
             <img src="https://img.shields.io/badge/LeetCode-Solve-orange?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=FFA116&color=FFA116" alt="LeetCode" />
         </a>
         <a href="mailto:shivangsrivastava157@gmail.com">
