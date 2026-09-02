@@ -15,19 +15,52 @@
 
 ---
 
-## Featured Projects
+## My Work
 
-- **[ryou](https://github.com/shv-ng/ryou)**: Python  
-    Go-style concurrency for Python. No async/await. No brokers. No boilerplate.
+### AI & Agents
+| Project | Stack | Description |
+|---------|-------|-------------|
+| [lens](https://github.com/shv-ng/lens) | Python | AI-powered claim verification — accepts text, PDF, or screenshots and maps what the media landscape says about it |
+| [tailor](https://github.com/shv-ng/tailor) | Python | Self-hosted multi-agent AI assistant for streamlining job hunting |
+| [repochat](https://github.com/shv-ng/repochat) | Python | Index any public GitHub repo and chat with its codebase using AI |
+| [ai-yoga-assist](https://github.com/shv-ng/ai-yoga-assist) | Python | Real-time yoga pose recognition and correction using CV and deep learning |
 
-- **[NotiQ](https://github.com/shv-ng/notiq)**: Python  
-    A multi-tenant webhook delivery service. Tenants subscribe to event types with target URLs; you fire an event, NotiQ fans it out, retries on failure, and parks dead deliveries in a DLQ for replay.
 
-- **[Relay](https://github.com/shv-ng/relay)**: Go  
-    A lightweight HTTP load balancer built from scratch, supporting multiple routing algorithms, health checks, and concurrent request handling.  
+### Systems & Infrastructure
+| Project | Stack | Description |
+|---------|-------|-------------|
+| [velora](https://github.com/shv-ng/velora) | C | A system programming language, built from scratch |
+| [relay](https://github.com/shv-ng/relay) | Go | HTTP load balancer from scratch — multiple routing algorithms, health checks, concurrent request handling |
+| [http-from-tcp](https://github.com/shv-ng/http-from-tcp) | Go | HTTP/1.1 server built from scratch over raw TCP, no net/http |
+| [notiq](https://github.com/shv-ng/notiq) | Python | Multi-tenant webhook delivery service with retry logic and dead-letter queue |
+| [deduplication](https://github.com/shv-ng/deduplication) | Go | Fast duplicate file finder using concurrent directory scanning and content hashing |
 
-- **[HTTP from TCP](https://github.com/shv-ng/http-from-tcp)**: Go  
-    A lightweight HTTP/1.1 server built from scratch in Go that parses and serves requests directly over TCP without using net/http.
+
+### Dev Tools & Libraries
+| Project | Stack | Description |
+|---------|-------|-------------|
+| [ryou](https://github.com/shv-ng/ryou) | Python | Go-style concurrency for Python — no async/await, no brokers, no boilerplate |
+| [fynd](https://github.com/shv-ng/fynd) | Go | Content-aware file search engine with full-text indexing, inline filters, SQLite backend |
+| [vani](https://github.com/shv-ng/vani) | Go | Language server for plain text — English word completions and on-hover definitions |
+| [zbar](https://github.com/shv-ng/zbar) | Zig | Terminal spinner library with a collection of animated styles |
+| [frec](https://github.com/shv-ng/frec) | Go | Track items by frequency and recency |
+| [nova](https://github.com/shv-ng/nova) | Go | Lightweight terminal animation — ANSI-powered starfield renderer |
+
+
+### Configuration & Environment
+| Project | Stack | Description |
+|---------|-------|-------------|
+| [dotfiles](https://github.com/shv-ng/dotfiles) | Shell | Lightweight Unix dotfiles managed with GNU Stow, built around a KISS workflow |
+
+
+### Web & Full-Stack
+| Project | Stack | Description |
+|---------|-------|-------------|
+| [expense-flow](https://github.com/shv-ng/expense-flow) | FastAPI, Svelte | Full-stack expense tracker with auth, categories, and analytics |
+| [hire-hustle](https://github.com/shv-ng/hire-hustle) | Go, React | Lightweight job application tracker — manage applications, statuses, workflows |
+| [urly](https://github.com/shv-ng/urly) | Go | Simple URL shortener backed by PostgreSQL |
+| [stock-dashboard](https://github.com/shv-ng/stock-dashboard) | FastAPI, JS | Real-time stock dashboard with historical data and short-term price predictions |
+
 
 ## Contributions & Collaborations
 
@@ -39,7 +72,7 @@
 - **[jackc/pgx](https://github.com/jackc/pgx)**: PostgreSQL driver and toolkit for Go  
     Fix empty user in connection string defaulting to OS user. [#2496](https://github.com/jackc/pgx/pull/2496)
 
-- **[depado/quokka](https://github.com/depado/quokka)**: Go-based static site generator  
+- **[depado/quokka](https://github.com/depado/quokka)**: Project boilerplate engine
     Fixed `filepath.Walk` error handling in the Analyze phase to prevent silent failures. [#197](https://github.com/depado/quokka/pull/197)
 
 - **[orhnk/RASCII](https://github.com/orhnk/RASCII)**: Advanced image to ASCII art tool & crate written in Rust 🦀🚀  
@@ -56,10 +89,6 @@
 ---
 
 <div align="center">
-    <p align="center">
-        <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love"/>
-        <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" alt="Powered by Coffee"/>
-    </p>
     <img src="https://count.getloli.com/@shv-ng?name=shv-ng&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=0&darkmode=auto" alt="Visitors">
     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
 </div>
