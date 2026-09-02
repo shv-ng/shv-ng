@@ -18,49 +18,54 @@
 ## My Work
 
 ### AI & Agents
-| Project | Stack | Description |
-|---------|-------|-------------|
-| [lens](https://github.com/shv-ng/lens) | Python | AI-powered claim verification — accepts text, PDF, or screenshots and maps what the media landscape says about it |
-| [tailor](https://github.com/shv-ng/tailor) | Python | Self-hosted multi-agent AI assistant for streamlining job hunting |
-| [repochat](https://github.com/shv-ng/repochat) | Python | Index any public GitHub repo and chat with its codebase using AI |
-| [ai-yoga-assist](https://github.com/shv-ng/ai-yoga-assist) | Python | Real-time yoga pose recognition and correction using CV and deep learning |
-
+- **[lens](https://github.com/shv-ng/lens)**: Python  
+    AI-powered claim verification — accepts text, PDF, or screenshots and maps what the media landscape says about it
+- **[tailor](https://github.com/shv-ng/tailor)**: Python  
+    Self-hosted multi-agent AI assistant for streamlining job hunting
+- **[repochat](https://github.com/shv-ng/repochat)**: Python  
+    Index any public GitHub repo and chat with its codebase using AI
+- **[ai-yoga-assist](https://github.com/shv-ng/ai-yoga-assist)**: Python  
+    Real-time yoga pose recognition and correction using CV and deep learning
 
 ### Systems & Infrastructure
-| Project | Stack | Description |
-|---------|-------|-------------|
-| [velora](https://github.com/shv-ng/velora) | C | A system programming language, built from scratch |
-| [relay](https://github.com/shv-ng/relay) | Go | HTTP load balancer from scratch — multiple routing algorithms, health checks, concurrent request handling |
-| [http-from-tcp](https://github.com/shv-ng/http-from-tcp) | Go | HTTP/1.1 server built from scratch over raw TCP, no net/http |
-| [notiq](https://github.com/shv-ng/notiq) | Python | Multi-tenant webhook delivery service with retry logic and dead-letter queue |
-| [deduplication](https://github.com/shv-ng/deduplication) | Go | Fast duplicate file finder using concurrent directory scanning and content hashing |
-
+- **[velora](https://github.com/shv-ng/velora)**: C  
+    A system programming language, built from scratch
+- **[relay](https://github.com/shv-ng/relay)**: Go  
+    HTTP load balancer from scratch — multiple routing algorithms, health checks, concurrent request handling
+- **[http-from-tcp](https://github.com/shv-ng/http-from-tcp)**: Go  
+    HTTP/1.1 server built from scratch over raw TCP, no net/http
+- **[notiq](https://github.com/shv-ng/notiq)**: Python  
+    Multi-tenant webhook delivery service with retry logic and dead-letter queue
+- **[deduplication](https://github.com/shv-ng/deduplication)**: Go  
+    Fast duplicate file finder using concurrent directory scanning and content hashing
 
 ### Dev Tools & Libraries
-| Project | Stack | Description |
-|---------|-------|-------------|
-| [ryou](https://github.com/shv-ng/ryou) | Python | Go-style concurrency for Python — no async/await, no brokers, no boilerplate |
-| [fynd](https://github.com/shv-ng/fynd) | Go | Content-aware file search engine with full-text indexing, inline filters, SQLite backend |
-| [vani](https://github.com/shv-ng/vani) | Go | Language server for plain text — English word completions and on-hover definitions |
-| [zbar](https://github.com/shv-ng/zbar) | Zig | Terminal spinner library with a collection of animated styles |
-| [frec](https://github.com/shv-ng/frec) | Go | Track items by frequency and recency |
-| [nova](https://github.com/shv-ng/nova) | Go | Lightweight terminal animation — ANSI-powered starfield renderer |
-
+- **[ryou](https://github.com/shv-ng/ryou)**: Python  
+    Go-style concurrency for Python — no async/await, no brokers, no boilerplate
+- **[fynd](https://github.com/shv-ng/fynd)**: Go  
+    Content-aware file search engine with full-text indexing, inline filters, SQLite backend
+- **[vani](https://github.com/shv-ng/vani)**: Go  
+    Language server for plain text — English word completions and on-hover definitions
+- **[zbar](https://github.com/shv-ng/zbar)**: Zig  
+    Terminal spinner library with a collection of animated styles
+- **[frec](https://github.com/shv-ng/frec)**: Go  
+    Track items by frequency and recency
+- **[nova](https://github.com/shv-ng/nova)**: Go  
+    Lightweight terminal animation — ANSI-powered starfield renderer
 
 ### Configuration & Environment
-| Project | Stack | Description |
-|---------|-------|-------------|
-| [dotfiles](https://github.com/shv-ng/dotfiles) | Shell | Lightweight Unix dotfiles managed with GNU Stow, built around a KISS workflow |
-
+- **[dotfiles](https://github.com/shv-ng/dotfiles)**: Shell  
+    Lightweight Unix dotfiles managed with GNU Stow, built around a KISS workflow
 
 ### Web & Full-Stack
-| Project | Stack | Description |
-|---------|-------|-------------|
-| [expense-flow](https://github.com/shv-ng/expense-flow) | FastAPI, Svelte | Full-stack expense tracker with auth, categories, and analytics |
-| [hire-hustle](https://github.com/shv-ng/hire-hustle) | Go, React | Lightweight job application tracker — manage applications, statuses, workflows |
-| [urly](https://github.com/shv-ng/urly) | Go | Simple URL shortener backed by PostgreSQL |
-| [stock-dashboard](https://github.com/shv-ng/stock-dashboard) | FastAPI, JS | Real-time stock dashboard with historical data and short-term price predictions |
-
+- **[expense-flow](https://github.com/shv-ng/expense-flow)**: FastAPI, Svelte  
+    Full-stack expense tracker with auth, categories, and analytics
+- **[hire-hustle](https://github.com/shv-ng/hire-hustle)**: Go, React  
+    Lightweight job application tracker — manage applications, statuses, workflows
+- **[urly](https://github.com/shv-ng/urly)**: Go  
+    Simple URL shortener backed by PostgreSQL
+- **[stock-dashboard](https://github.com/shv-ng/stock-dashboard)**: FastAPI, JS  
+    Real-time stock dashboard with historical data and short-term price predictions
 
 ## Contributions & Collaborations
 
