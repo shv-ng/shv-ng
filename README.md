@@ -17,16 +17,6 @@
 
 ## My Work
 
-### AI & Agents
-- **[lens](https://github.com/shv-ng/lens)**: Python  
-    AI-powered claim verification — accepts text, PDF, or screenshots and maps what the media landscape says about it
-- **[tailor](https://github.com/shv-ng/tailor)**: Python  
-    Self-hosted multi-agent AI assistant for streamlining job hunting
-- **[repochat](https://github.com/shv-ng/repochat)**: Python  
-    Index any public GitHub repo and chat with its codebase using AI
-- **[ai-yoga-assist](https://github.com/shv-ng/ai-yoga-assist)**: Python  
-    Real-time yoga pose recognition and correction using CV and deep learning
-
 ### Systems & Infrastructure
 - **[velora](https://github.com/shv-ng/velora)**: C  
     A system programming language, built from scratch
@@ -56,6 +46,16 @@
 ### Configuration & Environment
 - **[dotfiles](https://github.com/shv-ng/dotfiles)**: Shell  
     Lightweight Unix dotfiles managed with GNU Stow, built around a KISS workflow
+
+### AI & Agents
+- **[lens](https://github.com/shv-ng/lens)**: Python  
+    AI-powered claim verification — accepts text, PDF, or screenshots and maps what the media landscape says about it
+- **[tailor](https://github.com/shv-ng/tailor)**: Python  
+    Self-hosted multi-agent AI assistant for streamlining job hunting
+- **[repochat](https://github.com/shv-ng/repochat)**: Python  
+    Index any public GitHub repo and chat with its codebase using AI
+- **[ai-yoga-assist](https://github.com/shv-ng/ai-yoga-assist)**: Python  
+    Real-time yoga pose recognition and correction using CV and deep learning
 
 ### Web & Full-Stack
 - **[expense-flow](https://github.com/shv-ng/expense-flow)**: FastAPI, Svelte  
